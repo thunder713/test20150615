@@ -1,0 +1,56 @@
+/* css初期設定（タグデフォルトのmargin padding の消去 */
+body,h1,p,form,table,tr,th,td,div{
+	margin:0;
+	padding:0;
+}
+/* 中央寄せ設定 */
+#wrap{
+	width:800px;
+	margin:0 auto;
+}
+select {
+	margin:40px 0 0 0;
+}
+table {
+	width:780px;
+	border-collapse:collapse;
+}
+th,td{
+	border:1px solid #999;
+	padding:3px;
+}
+th{
+border-radius: 3px;
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #808080), color-stop(1.0, #D3D3D3));
+padding: 10px;
+color: #000;
+text-align: center;
+}
+.first{
+	width:30px;
+}
+tr:nth-of-type(2n){
+	background-color: #eee;
+}
+.notice{
+	width:100px;
+}
+p {
+	margin:5px 0 10px 0;
+}
+input[type="submit"]{
+    background: #eee;
+    border-top: 3px solid #DDD;
+    border-left: 3px solid #DDD;
+    border-right: 3px solid #BBB;
+    border-bottom: 3px solid #BBB;
+    color:#111;
+    width:150px;
+}
+a {
+	display:block;
+	padding:5px;
+	font-size:80%;
+}
+
+
